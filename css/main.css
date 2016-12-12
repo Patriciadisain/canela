@@ -1,0 +1,149 @@
+
+/*CSS*/
+.about, .fondo-1{
+	background-color: #B23838;
+}
+.navbar{
+	border: none!important;
+}
+.row{
+	margin-right: 15px !important;
+	margin-left: 15px !important;
+}
+*{
+	font-family: 'Delius Swash Caps', cursive;
+}
+h2{
+	font-family: 'Pacifico', cursive;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #F5E8C2;
+	font-size: 20px;
+	padding: 15px;
+}
+.navbar-default .navbar-brand{
+	color: #F5E8C2;
+	font-size: 22px;
+}
+.navbar-default{
+	margin-bottom: 0;
+}
+.fondo-2{
+	background-image: url(../img/canela.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.transparente{
+	background-color: rgba(188,116,59,0.4);
+}
+.fondo-2 h2{
+	font-size: 12em;
+	text-shadow: 3px 4px #B23838;
+	color: #F5E8C2;
+	margin-top: 60px;
+}
+.fondo-2 p{
+	text-shadow: 2px 2px #B23838;
+}
+.img-cake{
+	max-height: 400px;
+}
+.fondo-2 p{
+	font-size: 25px;
+	color: #F5E8C2;
+	padding-bottom: 60px;
+}
+.fondo-3{
+	background-color: #F5E8C2;
+	margin-top: -40px;
+}
+.fondo-3 p{
+	margin-top: 10px;
+	font-size: 16px;
+	color: #27160F;	
+	padding: 25px;
+}
+.titulo{
+	margin-top: 10px;
+	color: #F5E8C2;	
+	font-weight: bold;
+	padding: 25px;
+}
+.crema{
+	color: #27160F !important ;
+}
+.fondo-3 img{
+	width: 100%;
+	margin: 20px auto;
+}
+.fondo-1 p{
+	margin-top: 10px;
+	font-size: 16px;
+	color:#F5E8C2 ;	
+	padding: 25px;
+}
+.fa{
+	color: #27160F ;
+	font-size: 100px !important;
+	margin: 0 auto;
+	text-align: center;
+}
+.texto-desktop{
+	text-align: center;
+	padding: 20px;
+}
+.medio{
+	padding: 0 30px;
+}
+.para-ico{
+	padding-top: 20px;
+}
+.iconos{
+	background: url("../img/canela.jpg");
+	background-position: top;
+}
+.iconos h3, .iconos p{
+	color: #B4B4BC;
+	font-weight: bolder;
+}
+.opaco{
+	background-color: rgba(0,0,0,0.2);
+	margin-bottom: 20px;
+}
+.fa {
+color:#B4B4BC;
+-webkit-transition:all .9s ease; /* Safari y Chrome */
+-moz-transition:all .9s ease; /* Firefox */
+-o-transition:all .9s ease; /* IE 9 */
+-ms-transition:all .9s ease; /* Opera */
+width:100%;
+}
+.fa:hover{
+ color: #300F0F;
+-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+transform:scale(1.25);
+}
+footer{
+	text-align: center;
+	background-color:#EFF0F5;
+	color:#000000;
+	padding: 30px;
+	font-weight: bold;
+}
+footer img{
+	width: 3%;
+	margin: 0 0 7px 4px;
+}
+/* Media Queries */
+@media (max-width: 600px) {
+
+	.fondo-2 h2{
+	font-size: 4em !important;
+	}
+	footer img{
+		width: 50%;
+	}	 
+}
